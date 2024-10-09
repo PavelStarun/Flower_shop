@@ -48,6 +48,7 @@ TEMPLATES = [
     },
 ]
 
+
 WSGI_APPLICATION = 'flower_shop.wsgi.application'
 
 
