@@ -4,6 +4,7 @@ from .models import Product, Order, Review
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth import login
 
+
 def product_list(request):
     products = Product.objects.all()
     return render(request, 'shop/product_list.html', {'products': products})
