@@ -29,3 +29,6 @@ def register(request):
     else:
         form = UserCreationForm()
     return render(request, 'shop/register.html', {'form': form})
+
+def product_list(request):
+    return render(request, 'shop/base.html')
